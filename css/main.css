@@ -26,6 +26,7 @@ body {
 
 .img-flex {
   width: 100%;
+  display:block;
 }
 
 header {
