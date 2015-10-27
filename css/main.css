@@ -7,12 +7,10 @@
 
 html {
   box-sizing: border-box;
-/*prevents browser from automatically resizing font*/
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-/*those will never validate*/
 
 font-family: sans-serif;
 
@@ -136,13 +134,10 @@ footer p{
 }
 
 
-/*Small Size*/
+/*Small Size screens*/
 @media only screen and (min-width: 20em){
 
-
-
-
-  footer ol li{
+footer ol li{
     display: inline-block;
     width: calc(100% / 3);
     text-align: center;
@@ -150,14 +145,11 @@ footer p{
   }
 
 }
-
-
 /*Medium Size*/
 
 @media only screen and (min-width: 38em){
   .nav-ul{
     display: inline-block;
-
     text-align: center;
   }
 
