@@ -32,10 +32,6 @@ header {
   background-color: lightgrey;
 }
 
-h1 {
-  text-align: center;
-}
-
 h3 {
   text-align: center;
 }
@@ -45,14 +41,117 @@ ul {
   padding: 0;
 }
 
-a {
-  text-decoration: none;
-}
-
 .moons {
   text-align: left;
 }
 
+a{
+  text-decoration: none;
+}
+
+h1{
+  margin: 0;
+  text-align: center;
+}
+
+/*
+h2, h3{
+  line-height:2em;
+}*/
+
+.gutter{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.img-flex{
+  width: 100%;
+  display: block;
+}
+
+
+.nav-ul{
+  list-style-type: none;
+  display: block;
+  padding: 0;
+
+
+}
+ .nav.li{
+  width: 100%;
+ }
+
+.header{
+  background-color: grey;
+  overflow: hidden;
+}
+
+.header a{
+  color: blue;
+  display: block;
+}
+
+.header a:hover{
+  background-color: blue;
+  color: #fff;
+}
+
+figure{
+  padding: 1em;
+
+}
+p{
+  padding: 1em 0;
+}
+
+.moons{
+  float: left;
+}
+
+.moons .unit{
+float: left;
+}
+
+div .moon-info{
+  float: left;
+}
+
+.light-grey{
+  background-color: lightgrey;
+  text-align: center;
+}
+
+footer ol{
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
+
+footer a{
+  color: blue;
+}
+
+footer a:hover{
+  color: #fff;
+}
+
+footer a:visited{
+  color: blue;
+}
+
+
+footer li{
+  float: none;
+  display: block;
+
+
+}
+
+footer p{
+  padding: 0;
+  margin: 0;
+}
 @media only screen and (min-width: 25em) {
 
   nav {
@@ -62,6 +161,15 @@ a {
   nav li {
     display: inline-block;
   }
+
+}
+
+footer ol li{
+  display: inline-block;
+  width: calc(100% / 3);
+  text-align: center;
+  float: left;
+}
 
 }
 
@@ -78,5 +186,24 @@ a {
   h3 {
     text-align: left;
   }
+
+}
+  .nav-ul{
+    display: inline-block;
+
+    text-align: center;
+  }
+
+  .nav-ul li{
+    margin-right: 1em;
+    float: left;
+    vertical-align: middle;
+}
+
+h1{
+  text-align: left;
+  display: block;
+  vertical-align: middle;
+}
 
 }
