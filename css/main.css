@@ -38,7 +38,6 @@ body {
 
 .title {
   display: block;
-
   text-align: center;
 }
 
@@ -67,12 +66,6 @@ nav a:hover {
 }
 
 
-a,
-a:link,
-a:visited {
-  color: #0074D9;
-  text-decoration: none;
-}
 header {
   background-color: #cccccc;
 }
