@@ -185,3 +185,18 @@ footer p{
 }
 
 }
+
+.venus {
+  padding: 1em 1em 1em 0;
+}
+
+.text {
+  font-size: 2em;
+  padding: 0.5em;
+}
+
+.moon {
+  padding: 1em;
+}
+
+}
